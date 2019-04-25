@@ -1,0 +1,47 @@
+<section class="carousel">
+  <div class="carousel-wrapper">
+    <div class="position-relative">
+      <div class="bg-overlay"></div>
+      
+      <div class="container position-relative mb-5">
+        <div id="slider-team-container" role="listbox" class="carousel-inner" style="transform: translate(0px, 0px); transition: transform 0.5s ease 0s; visibility: visible; flex-basis: 370px;">
+          
+          {@documents documentType="price-list" document=document}
+          {#.}
+          {#document.data}
+          {@eq key=type value="team"}
+          <div tabindex="-1" class="carousel-slide">
+            <div class="p-1 p-md-3 d-flex h-100">
+              <div class="price-card-wrapper d-flex flex-column px-3 py-4 w-100">
+                <h2 class="name text-primary text-center font-bold">{title}</h2>
+                <p class="summary text-center mt-1 mb-3">{subtitle}</p>
+                <h2 class="price text-secondary text-center font-bold mb-0">IDR {price}</h2>
+                <div class="divider my-4"></div>
+                {benefits|s}
+                <p class="notebook text-secondary">{tnc}</p>
+              </div>
+            </div>
+          </div>
+          {/eq}
+          {/document.data}
+          {/.}
+          {/documents}
+          
+        </div>
+
+        <div id="slider-team-controls" class="carousel-navigation">
+          <button type="button" aria-label="Previous page" role="button" class="carousel-navigation-button carousel-navigation-prev carousel-navigation--disabled" style="padding: 8px; margin-right: -8px;"><svg data-name="layer 1" xmlns="http://www.w3.org/2000/svg" view-box="0 0 35 35" height="35" width="35"><circle cx="17.5" cy="17.5" r="17.5" fill="none"></circle><circle stroke="#fff" cx="17.5" cy="17.5" r="16.8" fill="none" stroke-width="1.5"></circle><path d="M21.2 9.9l-7.9 7.9 7.9 7.8" stroke="#fff" fill="none" stroke-width="1.5"></path></svg>
+          </button>
+          <button type="button" aria-label="Next page" role="button" class="carousel-navigation-button carousel-navigation-next" style="padding: 8px; margin-left: -8px;"><svg data-name="layer 1" xmlns="http://www.w3.org/2000/svg" view-box="0 0 35 35" height="35" width="35"><circle cx="17.5" cy="17.5" r="17.5" fill="none"></circle><circle stroke="#fff" cx="17.5" cy="17.5" r="16.8" fill="none" stroke-width="1.5"></circle><path d="M13.4 25.7l7.8-8-8-7.8" stroke="#fff" fill="none" stroke-width="1.5"></path></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row">
+  <div class="col-lg-6 offset-lg-3">
+  <p class="text-secondary text-center my-4 font-italic">* hanya berlaku untuk membership bulanan  (Unlimited &amp; Flex 40)</p>
+  </div>
+</div>

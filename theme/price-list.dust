@@ -1,0 +1,54 @@
+
+<div class="pt-5">
+  <section class="pricelist">
+    <div>
+      <img alt src="https://ruangdantempo.id/theme/assets/img/aset-1.b43794d.png" class="aset-1">
+      <img alt src="https://ruangdantempo.id/theme/assets/img/aset-2.64664b6.png" class="aset-2">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 offset-lg-2">
+          <h5 class="text-primary text-center font-semibold">Our Pricing Package</h5>
+          <p class="mt-4 px-1 px-md-5 text-center text-secondary desc">Kami menyediakan berbagai pilihan bagi kalian. Ayo bergerak, ambil keputusan, Ini saatnya ambil bagian jadi tonggak bangsa Indonesia wahai, Pemuda!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-0 col">
+          <div class="tabs">
+
+              <ul class="nav nav-pills price-tabs px-4 px-md-2" id="pricelistTab" role="tablist">
+                <li class="nav-item price-items">
+                  <a class="nav-link price-link active" id="personal-tab" data-toggle="tab" href="#personal" role="tab" aria-controls="personal" aria-selected="true">Personal</a>
+                </li>
+                <li class="nav-item price-items">
+                  <a class="nav-link price-link" id="team-plan-tab" data-toggle="tab" href="#team-plan" role="tab" aria-controls="team-plan" aria-selected="false">Team Plan Membership</a>
+                </li>
+                <li class="nav-item price-items">
+                  <a class="nav-link price-link" id="startup-tab" data-toggle="tab" href="#startup" role="tab" aria-controls="startup" aria-selected="false">Startup Package</a>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                  {>"slider-personal"/}
+                </div>
+                <div class="tab-pane" id="team-plan" role="tabpanel" aria-labelledby="team-plan-tab">
+                  {>"slider-team"/}
+                </div>
+                <div class="tab-pane" id="startup" role="tabpanel" aria-labelledby="startup-tab">
+                  {>"slider-startup"/}
+                </div>
+              </div>
+                          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="bottom-img">
+    <img alt src="https://ruangdantempo.id/theme/assets/img/aset-3.f0e433c.png">
+  </div>
+</div>

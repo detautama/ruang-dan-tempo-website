@@ -1,0 +1,12 @@
+{@select key=document.data.layout}
+{>"header"/}
+{@eq value="home_page"}
+{>"home-page"/}{/eq}
+{@eq value="price_list"}
+{>"price-list"/}
+{/eq}
+{@eq value="facilities"}
+{>"facilities"/}{/eq}
+{@none} Display the regular page layout {/none}
+{>"footer"/}
+{/select}
