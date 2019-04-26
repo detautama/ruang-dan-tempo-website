@@ -1,47 +1,47 @@
 <div>
-  <section id="hero" data-v-9d9a21ac="">
-    <div class="logo--container container" data-v-9d9a21ac="">
-      <div class="row" data-v-9d9a21ac="">
-        <div class="text-center col-sm-12" data-v-9d9a21ac=""><img alt="" src="https://ruangdantempo.id/theme/assets/img/logo.ef17092.png" class="img-fluid" data-v-9d9a21ac=""></div>
-        <div class="text-center col-sm-6 offset-sm-3" data-v-9d9a21ac="">
-          <p class="mt-3" data-v-9d9a21ac="">Tanpa ruang tidak ada peristiwa, tanpa waktu tidak ada apa-apa.</p>
+  <section id="hero" style="background-image: url(/_/theme/background-rt.png)">
+    <div class="logo--container container">
+      <div class="row">
+        <div class="text-center col-sm-12"><img alt="" src="/_/theme/logo.png" class="img-fluid"></div>
+        <div class="text-center col-sm-6 offset-sm-3">
+          <p class="mt-3">Tanpa ruang tidak ada peristiwa, tanpa waktu tidak ada apa-apa.</p>
         </div>
       </div>
     </div>
   </section>
-  <section id="about" data-v-02acd703="">
-    <div class="container" data-v-02acd703="">
-      <div class="row" data-v-02acd703="">
-        <div class="text-center col-sm-8 offset-sm-2" data-v-02acd703="">
-          <h2 data-v-02acd703="">Tentang</h2>
-          <p data-v-02acd703="">Sebuah ruang kerja bersama yang mewakili semangat pemuda-pemudi untuk mencapai berbagai batu loncatan menuju Indonesia yangutuh.<br data-v-02acd703="">
-          <br data-v-02acd703="">
-          Pemuda adalah pelopor dalam setiap perubahan yang dialami oleh sebuahbangsa. Pemikiran yang kritis diimbangi oleh aksi yang relevan akan membuahkan  yang berkesinambungan.<br data-v-02acd703=""><br data-v-02acd703=""> Di Ruang &amp; Tempo pemuda-pemudi harus berkarya demi menciptakan perubahan.</p>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="text-center col-sm-8 offset-sm-2">
+          <h2>Tentang</h2>
+          <p>Sebuah ruang kerja bersama yang mewakili semangat pemuda-pemudi untuk mencapai berbagai batu loncatan menuju Indonesia yangutuh.<br>
+          <br>
+          Pemuda adalah pelopor dalam setiap perubahan yang dialami oleh sebuahbangsa. Pemikiran yang kritis diimbangi oleh aksi yang relevan akan membuahkan  yang berkesinambungan.<br><br> Di Ruang &amp; Tempo pemuda-pemudi harus berkarya demi menciptakan perubahan.</p>
         </div>
       </div>
-    </div><img alt="" src="https://ruangdantempo.id/theme/assets/img/background2.092b65b.png" class="img-fluid" data-v-02acd703="">
+    </div><img alt="" src="/_/theme/background2.png" class="img-fluid">
   </section>
-  <section data-v-70ee9ded="">
-    <div class="container" data-v-70ee9ded="">
-      <div class="row" data-v-70ee9ded="">
-        <div class="text-center col-md-4" data-v-70ee9ded="">
-          <h6 data-v-70ee9ded="">REKAN</h6>
-          <p data-v-70ee9ded="">Bersama, menatap masa depan.<br data-v-70ee9ded=""><br data-v-70ee9ded=""> Kumpulan rekan yang bervisi sama, yaitu membawa perubahan menuju masadepan Indonesia yang utuh. </p>
-          <hr class="d-none d-sm-block d-md-none" data-v-70ee9ded="">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="text-center col-md-4">
+          <h6>REKAN</h6>
+          <p>Bersama, menatap masa depan.<br><br> Kumpulan rekan yang bervisi sama, yaitu membawa perubahan menuju masadepan Indonesia yang utuh. </p>
+          <hr class="d-none d-sm-block d-md-none">
         </div>
-        <div class="text-center col-md-4" data-v-70ee9ded="">
-          <h6 data-v-70ee9ded="">KEGIATAN</h6>
-          <p data-v-70ee9ded="">Berpikir, Merasakan, Beraksi.<br data-v-70ee9ded=""><br data-v-70ee9ded=""> Berbagai kegiatan yang akan dilaksanakan guna membuka peluang kolaborasidengan praktisi media, komunikasi, dan berbagai komunitas kreatif dalam ekosistem digital.</p>
-          <hr class="d-none d-sm-block d-md-none" data-v-70ee9ded="">
+        <div class="text-center col-md-4">
+          <h6>KEGIATAN</h6>
+          <p>Berpikir, Merasakan, Beraksi.<br><br> Berbagai kegiatan yang akan dilaksanakan guna membuka peluang kolaborasidengan praktisi media, komunikasi, dan berbagai komunitas kreatif dalam ekosistem digital.</p>
+          <hr class="d-none d-sm-block d-md-none">
         </div>
-        <div class="text-center col-md-4" data-v-70ee9ded="">
-          <h6 data-v-70ee9ded="">FASILITAS</h6>
-          <p data-v-70ee9ded="">Berkembang dengan satu visi.
-          <br data-v-70ee9ded="">
-          <br data-v-70ee9ded="">
+        <div class="text-center col-md-4">
+          <h6>FASILITAS</h6>
+          <p>Berkembang dengan satu visi.
+          <br>
+          <br>
           Ruang kerja bersama, ruang acara, ruang rapat, gratis kopisetiap saat, layanan kebersihan, dan akses internetyang dapat digunakan dari pukul 9am - 6pm, setiap harinya.</p>
         </div>
       </div>
-    </div><img alt="" src="https://ruangdantempo.id/theme/assets/img/background3.2fe2898.png" class="img-fluid" data-v-70ee9ded="">
+    </div><img alt="" src="/_/theme/background3.png" class="img-fluid">
   </section>
 </div>

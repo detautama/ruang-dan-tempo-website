@@ -1,6 +1,8 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
-/* @font-face {
+@font-face {
   font-family: manrope-thin;
   src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-thin.418b0fc.otf?alt=media&token=7a7a4098-9127-4cab-a483-e4324b040a83') format('opentype'),
     url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-thin.478c64b.woff?alt=media&token=d6fb3972-cc47-4abf-9a47-e57935035efa') format('woff'),
@@ -18,45 +20,45 @@
 
 @font-face {
   font-family: manrope-regular;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-regular.700cae8.otf?alt=media&token=90655a09-ab9c-4cd9-a8ff-defa063c1642') format('opentype'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-regular.e939257.woff?alt=media&token=4d9bd4d0-dba6-43f4-b40e-7d39a7f0c028') format('woff'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-regular.37f2c5e.woff2?alt=media&token=3861c0f4-8dcb-4db0-8b1e-56fee5e8bf13') format('woff2');
+  src: url('/_/theme/Fmanrope-regular.700cae8.otf') format('opentype'),
+    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-regular.e939257.woff') format('woff'),
+    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-regular.37f2c5e.woff2') format('woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: manrope-medium;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.aa67114.otf?alt=media&token=29b56caa-e86a-468d-96d1-87d4a13f9a75') format('opentype'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.ceab07e.woff?alt=media&token=1b9c92a1-322f-4ae1-ba0b-fe2fbc8622e4') format('woff'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.54f8078.woff2?alt=media&token=849e709f-9fdc-4c27-82b1-7ac7eb7592ab') format('woff2');
+  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.aa67114.otf') format('opentype'),
+    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.ceab07e.woff') format('woff'),
+    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-medium.54f8078.woff2') format('woff2');
   font-weight: 500;
 }
 
 @font-face {
   font-family: manrope-semibold;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-semibold.78dc265.otf?alt=media&token=c42fd328-90b6-4ebc-b8f3-737b16c5032d') format('opentype'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-semibold.35a1bb6.woff?alt=media&token=d8956625-46a8-42aa-a80a-81f36571dc4d') format('woff'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-semibold.b8a9768.woff2?alt=media&token=0c398ce8-2bb8-4c1c-8c21-c6efaccce2d8') format('woff2');
+  src: url('/_/theme/manrope-semibold.78dc265.otf') format('opentype'),
+    url('/_/theme/manrope-semibold.35a1bb6.woff') format('woff'),
+    url('/_/theme/manrope-semibold.b8a9768.woff2') format('woff2');
   font-weight: 600;
 }
 
 @font-face {
   font-family: manrope-bold;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-bold.31af89b.otf?alt=media&token=a795d7b5-99ac-4e20-a844-b91e8e4a2716') format('opentype'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-bold.af92576.woff?alt=media&token=b68a6f87-8f9a-4d7b-a5f8-6e0ea46ecc42') format('woff'),
-    url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fmanrope-bold.771c3ec.woff2?alt=media&token=b4f80218-0536-4b9a-901d-7a69d5a8d19d') format('woff2');
+  src: url('/_/theme/manrope-bold.31af89b.otf') format('opentype'),
+    url('/_/theme/manrope-bold.af92576.woff') format('woff'),
+    url('/_/theme/manrope-bold.771c3ec.woff2') format('woff2');
   font-weight: 700;
 }
 
 @font-face {
   font-family: pluto-bold;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fpluto-bold.d2a08de.otf?alt=media&token=95f72f26-1dd8-494c-b9ad-1aad61bc35c7') format('opentype');
+  src: url('/_/theme/pluto-bold.d2a08de.otf?') format('opentype');
 }
 
 @font-face {
   font-family: pluto-regular;
-  src: url('https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fpluto-regular.a4a805c.otf?alt=media&token=8c87bac6-cdbb-4a85-9bb1-3f6f6dd8900b') format('opentype');
-} */
+  src: url('/_/theme/pluto-regular.a4a805c.otf?') format('opentype');
+}
 
 .tns-outer {
   padding: 0 !important;
@@ -547,25 +549,16 @@ body:last-child
 
 body {
   font-size: 14px !important;
-  font-family: Roboto, sans-serif;
-  /* font-family: pluto-regular; */
+  font-family: pluto-regular;
 }
 
-/* .font-bold {
-  font-family: manrope-bold;
-} */
 .font-bold {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-family: manrope-bold;
 }
 
 .font-semibold {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-}
-/* .font-semibold {
   font-family: manrope-semibold;
-} */
+}
 
 .nuxt-progress {
   position: fixed;
@@ -630,7 +623,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/ruangtempo-dev.appspot.com/o/tanam%2Fruangtempo-dev%2Fthemes%2Fdefault%2Fbackground-rt.png?alt=media&token=cfa7934c-155e-4315-bc90-8827d9000723);
 }
 
 .logo--container {
@@ -663,8 +655,7 @@ section {
 
 
 h6 {
-  /* font-family: pluto-bold; */
-  font-family: Roboto, sans-serif;
+  font-family: pluto-bold;
   font-weight: bold;
 }
 
@@ -953,8 +944,7 @@ img.aset-2 {
 }
 
 h2 {
-  /* font-family: pluto-bold; */
-  font-family: Roboto, sans-serif;
+  font-family: pluto-bold;
   font-weight: bold;
   text-transform: uppercase;
   margin: 80px 0 50px;
@@ -1022,3 +1012,4 @@ p {
   text-transform: uppercase;
   font-size: 0.9em;
 }
+</style>
